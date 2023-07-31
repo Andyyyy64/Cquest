@@ -22,5 +22,5 @@ void createCharacter(Character *character)
     character->health = 100;
     character->magic = 50;
     character->attack = 20;
-    character->defense = 10;
+    character->speed = 15;
 }

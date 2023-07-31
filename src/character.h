@@ -7,7 +7,7 @@ typedef struct {
     int health;
     int magic;
     int attack;
-    int defense;
+    int speed;
 } Character;
 
 #endif

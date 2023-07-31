@@ -2,12 +2,7 @@
 #define BATTLE_H
 
 #include "character.h"
-
-typedef struct {
-    Character character;
-    int health;
-    int attack;
-} Enemy;
+#include "enemy.h"
 
 void startBattle(Character *Player, Enemy *enemy);
 
