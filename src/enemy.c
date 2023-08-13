@@ -10,4 +10,3 @@ void createEnemy(Enemy *enemy) {
     enemy->attack = rand() % 16 + 10;
     enemy->speed = rand() % 11 + 5;
 }
-
